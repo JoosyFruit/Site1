@@ -1279,7 +1279,6 @@
   grid-template-columns: 25% 25% 25% 25%;
   min-height: 222px;
   grid-gap: 0px 0px;
-  grid-auto-columns: 25%;
 }
 
 .u-section-5 .u-list-item-1 {
@@ -1304,7 +1303,7 @@
 }
 
 .u-section-5 .u-text-2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 20px auto 0;
 }
 
@@ -1312,11 +1311,12 @@
   font-size: 1.25rem;
   font-weight: 700;
   text-decoration: underline !important;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-section-5 .u-btn-1 {
   background-image: none;
+  font-size: 1rem;
   padding: 0;
 }
 
@@ -1342,7 +1342,7 @@
 }
 
 .u-section-5 .u-text-4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 20px auto 0;
 }
 
@@ -1350,11 +1350,12 @@
   font-size: 1.25rem;
   font-weight: 700;
   text-decoration: underline !important;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-section-5 .u-btn-2 {
   background-image: none;
+  font-size: 1rem;
   padding: 0;
 }
 
@@ -1380,7 +1381,7 @@
 }
 
 .u-section-5 .u-text-6 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 20px auto 0;
 }
 
@@ -1388,11 +1389,12 @@
   font-size: 1.25rem;
   font-weight: 700;
   text-decoration: underline !important;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-section-5 .u-btn-3 {
   background-image: none;
+  font-size: 1rem;
   padding: 0;
 }
 
@@ -1418,7 +1420,7 @@
 }
 
 .u-section-5 .u-text-8 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 20px auto 0;
 }
 
@@ -1426,32 +1428,30 @@
   font-size: 1.25rem;
   font-weight: 700;
   text-decoration: underline !important;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-section-5 .u-btn-4 {
   background-image: none;
+  font-size: 1rem;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-5 .u-repeater-1 {
     min-height: 183px;
-    grid-template-columns: repeat(4, 25%);
   }
 }
 
 @media (max-width: 991px) {
   .u-section-5 .u-repeater-1 {
     min-height: 735px;
-    grid-auto-columns: 50%;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 50% 50%;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-5 .u-repeater-1 {
-    grid-auto-columns: 100%;
     grid-template-columns: 100%;
   }
 
