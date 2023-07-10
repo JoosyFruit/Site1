@@ -41467,7 +41467,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-list-1 {
   margin-top: 50px;
   margin-bottom: 19px;
-  width: 100%;
 }
 
 .u-footer .u-repeater-1 {
@@ -41562,12 +41561,13 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-footer .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
+    min-height: 164px;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 5.0000025px));
-    min-height: 685px;
+    min-height: 390px;
   }
 }
 @media (max-width: 767px) {
