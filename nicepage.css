@@ -41378,6 +41378,15 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 1px;
   margin: -46px 65px 0 auto;
 }
+
+.u-header .u-btn-3 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -46px auto 42px 155px;
+}
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
     min-height: 156px;
@@ -41396,6 +41405,10 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 16px;
     margin-right: 59px;
     margin-bottom: 24px;
+  }
+
+  .u-header .u-btn-3 {
+    margin-left: 0;
   }
 }
 @media (max-width: 991px) {
