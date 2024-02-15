@@ -147,7 +147,7 @@ margin: auto;
 /* SECTION HERO */
 
 /* .section-hero {
-background: url(img/Overlay.png) right center no-repeat;
+background: url("img/Overlay.png") right center no-repeat;
 background-size: contain;
 border-bottom: 1px solid  #e4e4e4;
 }
