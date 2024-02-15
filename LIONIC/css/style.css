@@ -622,14 +622,3 @@ border-bottom: 1px solid  #e4e4e4;
 .footer-nav-link:hover {
     color: #3172b9;
 }
-
-@media (max-width: 768px) {
-    .section-do-list {
-        display: block;
-    }
-}
-
-.section-do-item:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 30px;
-}
