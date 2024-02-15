@@ -586,7 +586,7 @@ border-bottom: 1px solid  #e4e4e4;
 .footer-social-icon-twitter {
     width: 18px;
     height: 15px;
-    background-image: url(img/Twitter.svg);
+    background-image: url("img/Twitter.svg");
 }
 
 .footer-social-icon-in {
