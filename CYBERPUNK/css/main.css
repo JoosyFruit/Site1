@@ -1,0 +1,420 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Archangelsk';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Archangelsk\ Regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.125rem;
+}
+
+.background {
+    background: url(../img/11.jfif);
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header__block {
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.logolink {
+    width: 30px;
+    height: 30px;
+}
+
+.header__foot {
+    margin-bottom: 0;
+    background: url(../img/Rectangle\ 59.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 39rem;
+    height: 23.0625rem;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.foot__content {
+    padding-left: 3.5rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    width: 30.25rem;
+}
+
+.header__foot-heading {
+    width: 30.25rem;
+    font-family: 'Archangelsk';
+    font-size: 3.875rem;
+}
+
+.header__foot-button {
+    width: 17rem;
+    height: 4.875rem;
+    border: none;
+    background-color: #000000;
+    color: #F8F200;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.containerbg {
+    height: calc(100vh - 5.8rem);
+    display: flex;
+}
+
+/* SECTION 2 */
+
+.section2 {
+    height: 100vh;
+}
+
+.colortext {
+    color: #52BEDC;
+}
+
+.section2__heading {
+    margin-top: 6rem;
+    font-family: 'Archangelsk';
+    font-size: 3.875rem;
+}
+
+.section2__description {
+    margin-top: 3rem;
+    width: 59.5rem;
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+}
+
+.section2__photos {
+    margin-top: 4.375rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.photos-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* SECTION 3 */
+
+.perehod1 {
+    height: 4.375rem;
+    background: url(../img/22\ 1.png) repeat;
+}
+
+.section3 {
+    /* height: 100vh; */
+    background-color: black;
+}
+
+.section3__head {
+    display: flex;
+    align-items: end;
+    gap: 2rem;
+}
+
+.section3-head__AKCIYA {
+    width: 8.25rem;
+    height: 8.25rem;
+}
+
+.section3-head__heading {
+    color: white;
+    font-family: 'Archangelsk';
+    font-size: 3.875rem;
+}
+
+.section3__description {
+    margin-top: 1.5625rem;
+    color: white;
+    width: 59.5rem;
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+}
+
+.section3__form {
+    display: flex;
+    /* align-items: end; */
+}
+
+.section3__inputs {
+    width: 28.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1875rem;
+}
+
+.input {
+    padding: 1rem;
+    height: 3rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid  #ccc;
+    color: white;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5rem;
+    cursor: pointer;
+    background-color: none;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-weight: 0.75rem;
+  }
+  
+  .section3__button {
+    width: 12rem;
+    height: 3.6875rem;
+    background-color: #F8F200;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+
+  .submit-descripton {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgba(202, 202, 202, 1);
+    position: relative;
+}
+
+.checkbox {
+    margin-right: 0.3125rem;
+    width: 0.875rem;
+    height: 0.875rem;
+    opacity: 0;
+}
+
+.checkbox-label {
+    margin-right: 0.3125rem;
+    width: 0.875rem;
+    height: 0.875rem;
+    position: absolute;
+    outline: 1px solid #CACACA;
+    top: 0.4375rem;
+    left: 0;
+    cursor: pointer;
+}
+
+.checkbox:checked + .checkbox-label {
+    background: url('./../img/galka.svg') no-repeat center;
+}
+
+.perehod {
+    background: url(../img/22\ 2.png);
+    background-size: cover;
+}
+
+/* SECTION 4 */
+
+.perehod2 {
+    height: 4.375rem;
+    background: url(../img/22\ 2.png) repeat;
+}
+
+.section4 {
+    background-color: #F8F200;
+}
+
+.section4__content {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section4-content__photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.625rem;
+}
+
+.section4__heading {
+    font-size: 3.875rem;
+    font-family: 'Archangelsk';
+}
+
+.section4__description {
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+}
+
+.section4__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+
+.section4-list__link {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 1.125rem;
+}
+
+.section4__button {
+    cursor: pointer;
+    width: 12.125rem;
+    height: 3.6875rem;
+    background-color: black;
+    color: #F8F200;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* SECTION 5 */
+
+.section5__bg {
+    height: 44.8125rem;
+    display: flex;
+}
+
+.sect5__bg1 {
+    flex: 0 1 50%;
+    background: url(../img/bg1.png) no-repeat;
+    background-size: cover;
+}
+
+.sect5__bg2 {
+    flex: 0 1 50%;
+    height: 100%;
+    background: url(../img/bg2.png) no-repeat;
+    background-size: cover;
+}
+
+.sect5__info {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.sect5__heading {
+    width: 39rem;
+    font-size: 3.875rem;
+    color: white;
+    font-family: 'Archangelsk';
+}
+
+.sect5__list-heading {
+    color: #52BEDC;
+}
+
+.sect5__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+
+.sect5__list-descr {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.sect5__wrap-heading {
+    margin-top: 4rem;
+    color: #52BEDC;
+}
+
+.sect5__icon-wrap {
+    height: 9.375rem;
+    width: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+/* FOOTER  */
+
+.footer {
+    width: 100%;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.podis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: black;
+    font-size: 0.75rem;
+    color: white;
+}
